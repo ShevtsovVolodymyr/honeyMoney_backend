@@ -7,8 +7,8 @@
   "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "deploy": "node index.js",
+    "start": "node index.js",
+    "watch": "nodemon index.js",
     "prettier": "prettier --write --config .prettierrc.json \"**/*.js\"",
     "lint": "eslint --fix --config .eslintrc.json \"**/*.js\""
   },
